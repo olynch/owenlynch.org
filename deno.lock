@@ -1,0 +1,65 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/async@*": "1.0.12",
+    "jsr:@std/cli@*": "1.0.6",
+    "jsr:@std/cli@^1.0.6": "1.0.6",
+    "jsr:@std/encoding@^1.0.5": "1.0.5",
+    "jsr:@std/fmt@^1.0.3": "1.0.3",
+    "jsr:@std/http@*": "1.0.9",
+    "jsr:@std/media-types@^1.0.3": "1.0.3",
+    "jsr:@std/net@^1.0.4": "1.0.4",
+    "jsr:@std/path@^1.0.7": "1.0.7",
+    "jsr:@std/streams@^1.0.7": "1.0.7"
+  },
+  "jsr": {
+    "@std/async@1.0.12": {
+      "integrity": "d1bfcec459e8012846fe4e38dfc4241ab23240ecda3d8d6dfcf6d81a632e803d"
+    },
+    "@std/cli@1.0.6": {
+      "integrity": "d22d8b38c66c666d7ad1f2a66c5b122da1704f985d3c47f01129f05abb6c5d3d"
+    },
+    "@std/encoding@1.0.5": {
+      "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
+    },
+    "@std/fmt@1.0.3": {
+      "integrity": "97765c16aa32245ff4e2204ecf7d8562496a3cb8592340a80e7e554e0bb9149f"
+    },
+    "@std/http@1.0.9": {
+      "integrity": "d409fc319a5e8d4a154e576c758752e9700282d74f31357a12fec6420f9ecb6c",
+      "dependencies": [
+        "jsr:@std/cli@^1.0.6",
+        "jsr:@std/encoding",
+        "jsr:@std/fmt",
+        "jsr:@std/media-types",
+        "jsr:@std/net",
+        "jsr:@std/path",
+        "jsr:@std/streams"
+      ]
+    },
+    "@std/media-types@1.0.3": {
+      "integrity": "b12d30a7852f7578f4d210622df713bbfd1cbdd9b4ec2eaf5c1845ab70bab159"
+    },
+    "@std/net@1.0.4": {
+      "integrity": "2f403b455ebbccf83d8a027d29c5a9e3a2452fea39bb2da7f2c04af09c8bc852"
+    },
+    "@std/path@1.0.7": {
+      "integrity": "76a689e07f0e15dcc6002ec39d0866797e7156629212b28f27179b8a5c3b33a1"
+    },
+    "@std/streams@1.0.7": {
+      "integrity": "1a93917ca0c58c01b2bfb93647189229b1702677f169b6fb61ad6241cd2e499b"
+    }
+  },
+  "remote": {
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/ast.ts": "d80ce714dbb893b2941a518c52e33a0b08140746084c8ccd672fcdd23efe66f0",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/attributes.ts": "fc1915de57094827f3960a1b62ab482d5518c6a32def0fb2c955d043d5f80aca",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/block.ts": "eda463c2a8776a86f8c774ec4bd6f49aa85864128dcecaf72fe8b8b6cb4193b9",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/djot-renderer.ts": "72cedee4729046ec28c5aa32733ff899394cb9c373c62f8bb17e81eb74c7311d",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/event.ts": "4488ca5bd8561d703112a5d15630a78876326c044b042e2cfbcdc39adf45958f",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/find.ts": "229c8d3eb1dee576cf95a3fdd0681fb3b67c1c7b4401fad08bc1681ac1b2cfba",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/html.ts": "933d8bf70a5f8826a050b86b892e4c06b85541dd5888ab7953c791c5640251fc",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/inline.ts": "b2fe7bca0328e292365821035951c1ce69891892058172d3274d87498a769c69",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/options.ts": "4c503335519b98bd624753618727b5050b4df2aed1fb11ae56bfc20b735da598",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/parse.ts": "1f3969eb211c322787035954c22d66ed68bd113445f8b13a52e6ead69d306df9"
+  }
+}

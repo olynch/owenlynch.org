@@ -1,0 +1,8 @@
+{
+  "folders": {
+    "https://raw.githubusercontent.com/jgm/djot.js/": "raw.githubusercontent.com/jgm/#djot.js_af886"
+  },
+  "modules": {
+    "https://jsr.io/@std/net/1.0.4/unstable_get_network_address.ts": {}
+  }
+}

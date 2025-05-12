@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Source Serif 4';
+  font-weight: 200 900;
+  font-display: swap;
+  src: url(/static/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-weight: 200 900;
+  font-display: swap;
+  font-style: italic;
+  src: url(/static/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf) format('ttf');
+}
+
+
+body {
+    font-family: "Source Serif 4", serif;
+    margin-left: 1em;
+    max-width: 100ch;
+}
+
+nav > a {
+    margin-right: 1em;
+    font-size: 1.2em;
+}

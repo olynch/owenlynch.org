@@ -1,0 +1,19 @@
+{
+  "vendor": true,
+  "tasks": {
+    "dev": "deno run --watch src/main.ts"
+    "build": "deno run --allow-run --allow-read=site --allow-write=out src/main.ts --build"
+    "watch": "deno run --watch --allow-net --allow-run --allow-read=site,out --allow-write=out src/main.ts --build --watch"
+  },
+  "imports": {
+    "@djot/": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/ast": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/ast.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/attributes": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/attributes.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/block": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/block.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/event": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/event.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/find": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/find.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/inline": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/inline.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/options": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/options.ts",
+    "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/parse": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/parse.ts"
+  }
+}
