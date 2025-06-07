@@ -1,9 +1,9 @@
 {
   "vendor": true,
   "tasks": {
-    "dev": "deno run --watch src/main.ts"
-    "build": "deno run --allow-run --allow-read=site --allow-write=out src/main.ts --build"
-    "watch": "deno run --watch --allow-net --allow-run --allow-read=site,out --allow-write=out src/main.ts --build --watch"
+    "build": "deno run --allow-run --allow-read=site --allow-write=out src/main.ts --build",
+    "watch": "deno run --watch --allow-net --allow-run --allow-read=site,out --allow-write=out src/main.ts --build --watch",
+    "deploy": "deno task build; rsync -rud out/ owenlynch.org:/var/www/owenlynch.org/deployed/"
   },
   "imports": {
     "@djot/": "https://raw.githubusercontent.com/jgm/djot.js/@djot/djot@0.3.2/src/",

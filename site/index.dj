@@ -2,7 +2,10 @@
 
 ![a picture of me in front of a blackboard](/static/headshot.png){width=200}
 
-I am a PhD student at Oxford University and a research software engineer at [Topos Research UK](https://topos.institute).
+I am a PhD student in [Sam Staton](https://www.cs.ox.ac.uk/people/samuel.staton/main.html)'s group at Oxford University and a research software engineer at [Topos Research UK](https://topos.institute). My current aim in research is to build domain specific languages for categorical systems theory.
+
+- [mathstodon](https://mathstodon.xyz/@olynch)
+- [github](https://github.com/olynch)
 
 ---
 
@@ -12,8 +15,35 @@ I am a PhD student at Oxford University and a research software engineer at [Top
 - _(with Matteo Capucci and David Spivak)_ *Organizing Physics with Open Energy-Driven Systems*. Applied Category Theory 2024, available on [arXiv](https://arxiv.org/abs/2404.16140)
 - _(with Brandon Shapiro and David Spivak)_ *All Concepts are Cat#*. Applied Category Theory 2023, available on [arXiv](https://arxiv.org/abs/2305.02571)
 - _(Master's thesis)_ *Relational Composition of Physical Systems: A Categorical Approach*. Available on [arXiv](https://arxiv.org/abs/2310.06088)
-- _(with John Baez and Joe Moeller)_ *Compositional Thermostatics*. Journal of Mathematical Physics, [DOI](https://arxiv.org/abs/2310.06088)
+- _(with John Baez and Joe Moeller)_ *Compositional Thermostatics*. Journal of Mathematical Physics. Available on [arXiv](https://arxiv.org/abs/2310.06088)
 
 ## Talks
 
+- *Clock systems for stochastic and non-deterministic categorical systems theories*. Applied Category Theory 2025. [slides](/archive/2025-act-clocksystems/slides/1.html)
+- *Theory and Applications of Type-Theoretic Universes*. PUDDLE Seminar, May 22, 2025. [slides](/archive/2025-puddle-universes/slides/1.html)
+- *Element Model Type Theory*. Oxford Seminar, Topos Institute. [video](https://youtu.be/Id-9XE5TsA8?list=PLhgq-BqyZ7i4zZ9nAIcTQ3w6H0YBo8DR0)
+- *Markov Semigroups*. Oxford Seminar, Topos Institute. [video](https://youtu.be/5bBPz4GpBIw?list=PLhgq-BqyZ7i4zZ9nAIcTQ3w6H0YBo8DR0)
+- *Stateful Lenses: A Recipe for Expressive Systems-Theoretic Cartesian Double Categories*. [Berkeley Seminar, Topos Institute](https://topos.institute/events/berkeley-seminar/), [video](https://www.youtube.com/watch?v=veQbMfPSi9M)
+- *Gatlab: Computer Algebra and Standard ML modules combined.* [Juliacon 2024](https://pretalx.com/juliacon2024/talk/H8AWEY/)
+- *GATlab: Modeling and Programming with Generalized Algebraic Theories.* [Applied Category Theory 2024](https://oxford24.github.io)
+- *Structured Data: A Principled Approach*. [Berkeley Seminar, Topos Institute](https://topos.institute/events/berkeley-seminar/), [video](https://youtu.be/PvZ8ItPp7Vg)
+- *Nested wiring diagrams in Semagrams*. [Applied Category Theory 2023](https://act2023.github.io/programme.html)
+- *Gatlab.jl: Symbolic computing with categories using generalized algebraic theories*. [Applied Category Theory 2023](https://act2023.github.io/programme.html)
+- *Algebraic Theories and Computer Algebra*. [Berkeley Seminar, Topos Institute](https://topos.institute/events/berkeley-seminar/), [video](https://youtu.be/hsgxoLEzLyo)
+- *Composition of Port-Hamiltonian Systems*. [Berkeley Seminar, Topos Institute](https://topos.institute/events/berkeley-seminar/), [video](https://youtu.be/zI0rMdPXwHI)
+- *Compile-time programming with CompTime.jl*. [JuliaCon 2022](https://pretalx.com/juliacon-2022/talk/DSB7E3/). [video](https://youtu.be/an6_N6RM8Zo)
+- *Compositional Thermostatics*. [Applied Category Theory 2022](https://msp.cis.strath.ac.uk/act2022/accepted.html). [slides](https://owenlynch.org/static/act2022_talk/pres.html), [video](https://youtu.be/KsxKNzUnE6E?t=23056)
+- *Operadic composition of thermodynamic systems*. [Symposium on the Categorical Semantics of Entropy](https://itsatcuny.org/calendar/220513/scse).
+- *Graphical Semantics Modeling with Semagrams.jl*. [Applied Category Theory 2021](https://jamievicary.github.io/act2021/)
+- *Shaped Data with Acsets*. JuliaCon 2021. [video](https://www.youtube.com/watch?v=ZzTJ3Hrw2w8JuliaCon)
+- *Energy and Entropy*. SEMF. [slides](/archive/semf_talk_final.pdf)
+
 ## Software
+
+- [emtt](https://github.com/ToposInstitute/emtt)
+- [fexplib](https://github.com/ToposInstitute/fexplib)
+- [tattle](https://github.com/ToposInstitute/tattle)
+- [GATlab.jl](https://github.com/AlgebraicJulia/Gatlab.jl)
+- [Semagrams](https://github.com/AlgebraicJulia/Semagrams.jl)
+- [ACSets.jl](https://github.com/AlgebraicJulia/ACSets.jl/)
+- [CompTime.jl](https://github.com/AlgebraicJulia/CompTime.jl)

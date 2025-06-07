@@ -52,8 +52,8 @@ async function build({ source_dir, target_dir } : Options) {
         }
     }
     copyDir(source_dir + '/static', target_dir + '/static');
-    const fmt_command = new Deno.Command("deno", {
-        args: ["fmt", `${target_dir}/*`]
+    const fmt_command = new Deno.Command("bash", {
+        args: ["-c", `deno fmt ${target_dir}/*`]
     })
     fmt_command.spawn().status
 }
