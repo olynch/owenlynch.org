@@ -15,9 +15,11 @@ function renderFromDjot(src: string) {
     const ast = djot_parse(src)
     const content = djot_render(ast, {
         overrides: {
-            h1: (node, renderer) => {
+            heading: (node, renderer) => {
                 const inner = renderer.renderChildren(node)
-                title.value = inner
+                if (node.level == 1) {
+                    title.value = inner
+                }
                 return `<h1>${inner}</h1>`
             }
         }
