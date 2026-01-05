@@ -1,0 +1,30 @@
+cabal-version:      3.4
+name:               owenlynch-org
+version:            0.1.0.0
+-- synopsis:
+-- description:
+license:            BSD-3-Clause
+license-file:       LICENSE
+author:             Owen Lynch
+maintainer:         root@owenlynch.org
+-- copyright:
+category:           Web
+build-type:         Simple
+extra-doc-files:    CHANGELOG.md
+-- extra-source-files:
+
+common warnings
+    ghc-options: -Wall
+
+executable owenlynch-org
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.19.2.0,
+                      bytestring,
+                      djot,
+                      mustache,
+                      shake,
+                      text
+    hs-source-dirs:   app
+    default-extensions: OverloadedStrings
+    default-language: GHC2021
