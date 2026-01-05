@@ -44,6 +44,10 @@ shakeMain mainTemplate = shakeArgs shakeOptions{shakeFiles="_build"} $ do
   phony "clean" $ do
     removeFilesAfter "_build" ["//*"]
 
+  phony "deploy" $ do
+    need ["build"]
+    cmd_ ("rsync -ru _build/ owenlynch.org:/var/www/owenlynch.org/deployed/" :: String)
+
   "_build/static//*" %> \out -> do
     let orig = "src/" </> (dropDirectory1 out)
     copyFile' orig out
